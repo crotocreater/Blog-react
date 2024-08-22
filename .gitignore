@@ -1,0 +1,30 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE settings (e.g., for VSCode)
+.vscode/
+.idea/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Java compiled files
+*.class
+
+# Ignore C++ object files
+*.o
+*.obj
