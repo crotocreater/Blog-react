@@ -9,7 +9,7 @@ router.get('/acount', userAcount.acount);
 
 // login 
 router.get('/login', userAcount.login);
-router.post('/login', userAcount.pLogin);
+router.post('/login', userAcount.pLogin);  // hoàn thành 
 
 
 // login với gg 
@@ -19,12 +19,12 @@ router.post('/loginGG', userAcount.pLoginGG);
 
 // login với fb
 router.get('/loginFB', userAcount.loginFB);
-router.post('/loginFB', userAcount.pLoginFB);
+router.post('/loginFB', userAcount.pLoginFB); 
 
 
 // sign in 
 router.get('/sign', userAcount.sign);
-router.post('/sign', userAcount.signIn); // dang su ly
+router.post('/sign', userAcount.signIn); // hoàn thành
 
 
 // sign in với gg
@@ -52,3 +52,6 @@ router.get('/userInformation', userAcount.userInformation);
 router.post('/userInformation', userAcount.pUserInformation)
 
 export default router;
+
+
+// sử lý cookie and session
